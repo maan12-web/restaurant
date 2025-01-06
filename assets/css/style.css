@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --background-color: #201f28;
+    --button-color: #eeb952;
+    --text-color-primary: #222228;
+    --text-color: #fff;
+    --yeseva-fonts: 'Yeseva One';
+    --poopines-fonts: 'Poppins';
+}
+/* HEADER CSS */
+.header{
+    padding: 20px 25px;
+     z-index: 10;
+    background-color: color-mix(in srgb, var(--background-color), transparent 20%);
+}
+.navmenu ul  li{
+    color: var(--text-color);
+    font-family: var(--poopines-fonts);
+    font-size: 15px;
+    transition: all 0.3s linear;
+}
+.navmenu ul a li:hover{
+    color: var(--button-color);
+}
+.buynow-btn{
+    padding: 11px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--text-color-primary);
+}
+.buynow-btn i{
+    color: #eeb857 !important;
+}
+.offcanvas-header{
+    border-bottom: 1px solid;
+     border-color: color-mix(in srgb, var(--text-color), transparent 80%);
+}
+.offcanvas-btn{
+    font-size: 30px;
+    color: var(--text-color);
+    display: none;
+    margin-right: 10px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+.offcanvas-style{
+    background-color: #191919;
+    width: 300px !important;
+}
+.close-btn{
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 25px;
+}
+.navmenu-offcanvas ul a li{
+    color: var(--text-color);
+    border-bottom: 1px solid;
+     border-color: color-mix(in srgb, var(--text-color), transparent 80%);
+}
+.buynow-btn-offcanvas{
+    padding: 11px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--text-color-primary);
+}
+.buynow-btn-offcanvas i{
+    color: #eeb857 !important;
+}
+/* HEADER CSS END */
+/* SECTION 1 START CSs */
+.title-section{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-section img{
+    opacity: 1;
+    transform: none;
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.title-content{
+    z-index: 20;
+    position: relative;
+}
+.title-content h1{
+    color: var(--button-color);
+    font-size: 65px;
+    font-family: var(--yeseva-fonts);
+}
+.title-content p{
+    color: var(--text-color);
+    line-height: 1.8;
+    font-size: 15px;
+}
+.title-content a button{
+    padding: 12px 35px ;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border-radius: 3px;
+    border: none;
+    transition: all 0.3s linear;
+}
+.title-content a button:hover{
+    background-color: #dca952;
+}
+
