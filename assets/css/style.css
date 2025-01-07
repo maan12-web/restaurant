@@ -140,3 +140,20 @@ html{
     font-family: var(--yeseva-fonts);
     padding-bottom: 60px;
 }
+.food-img{
+    padding: 0 26px;
+}
+.food-img h4{
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text-color-primary);
+    padding-top: 20px;
+    font-family: var(--poopines-fonts);
+}
+.food-img p{
+    margin: 0 0 15px;
+    font-family: var(--poopines-fonts);
+    font-size: 15px;
+}

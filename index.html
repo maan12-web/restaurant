@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- POOPINS FONTS -->
     <link rel="stylesheet" href="/assets/fonts/poopines/stylesheet.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- YESEVA FONTS -->
     <link rel="stylesheet" href="./assets/fonts/yeseva/stylesheet.css">
     <!-- BOOTSTRAP CSS -->
@@ -19,7 +21,7 @@
     <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 
-<body>
+<body> 
     <!-- HEADER START -->
     <header class="header d-flex align-items-center fixed-top">
         <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
@@ -83,7 +85,7 @@
                   ullamcorper enim. Sed tincidunt elementum dolor, in tempus tellus aliquet eu.  <br>
                 Donec ullamcorper est neque, et consectetur ipsum facilisis in.                      
                </p> 
-               <a href="#about">
+               <a href="#catring">
                 <button>
                     READ MORE ABOUT US
                 </button>
@@ -93,21 +95,76 @@
            <!-- SECTION 1 END -->
            <!-- SCROLL BTN START -->
             <div class="d-flex align-items-center justify-content-center">
-                <a href="#about" class="text-decoration-none scroll-img">
+                <a href="#catring" class="text-decoration-none scroll-img">
                    <img src="./assets/image/download (1).png" alt="" class="img-fluid">
                 </a>
             </div>
             <!-- SCROLL BTN END -->
              <!-- SECTION 2 START  -->
-              <section class="section-dishes">
+              <section id="catring" class="section-dishes">
                 <div class="container">
                     <div class="text-center dishes-title">
                         <h3 class="mb-0">
                             Every day we prepare dishes <br> from around the world
                         </h3>
                     </div>
-                    <div class="row gy-4">
-                        
+                    <div class="row gy-4 text-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_35.png" alt="">
+                                <h4>JAPANESE FOOD</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_39.png" alt="">
+                                <h4>MEXICAN FOOD</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_37.png" alt="">
+                                <h4>GERMAN CUISINE</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_36.png" alt="">
+                                <h4>ITALIAN CUISINE</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_40.png" alt="">
+                                <h4>CHEESE MENU</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_34.png" alt="">
+                                <h4>SALAD MENU</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_38.png" alt="">
+                                <h4>FIRST DISHES</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="food-img">
+                                <img src="./assets/image/catering2_41.png" alt="">
+                                <h4>SECOND DISHES</h4>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper magna.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
               </section>
@@ -163,7 +220,11 @@
     </div>
     <!-- OFF CANVAS END -->
     <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 
 </html>
