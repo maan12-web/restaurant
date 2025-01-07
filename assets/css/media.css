@@ -72,6 +72,12 @@
     .col-xxl-11 {width: 91.66%;}
     .col-xxl-12 {width: 100%;}  
 }
+@media (max-width: 1400px) {
+   .scroll-img{
+    margin-top: -100px;
+    z-index: 5;
+   }
+}
 @media (max-width:1200px) {
     .navmenu{
         display: none;
@@ -83,6 +89,9 @@
 @media (max-width: 768px) {
     .title-content h1{
         font-size: 48px;
+    }
+    .dishes-title h3{
+        font-size: 32px;
     }
 }
 @media (max-width: 576px) {
