@@ -4,6 +4,7 @@ html{
 
 :root{
     --background-color: #201f28;
+    --bcakground-color-primary: #f7f8f8;
     --button-color: #eeb952;
     --text-color-primary: #222228;
     --text-color: #fff;
@@ -14,7 +15,7 @@ html{
 .header{
     padding: 20px 25px;
      z-index: 10;
-    background-color: color-mix(in srgb, var(--background-color), transparent 20%);
+    background-color: color-mix(in srgb, var(--background-color), transparent 5%);
 }
 .navmenu ul  li{
     color: var(--text-color);
@@ -156,4 +157,184 @@ html{
     margin: 0 0 15px;
     font-family: var(--poopines-fonts);
     font-size: 15px;
+}
+.who-are-btn button{
+    padding: 12px 35px ;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--button-color);
+    color: var(--background-color);
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+    margin-top: 50px;
+}
+.who-are-btn button:hover{
+    background-color: #dca952;
+}
+/* SECTION 3 CSS */
+.section-about{
+    padding: 80px 0;
+    background-color: var(--bcakground-color-primary);
+}
+.about-title h2{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: var(--text-color-primary);
+    font-family: var(--yeseva-fonts);
+}
+.about-us p{
+    margin: 0 0 15px;
+    font-family: var(--poopines-fonts);
+    font-size: 15px;
+}
+.about-us button{
+    padding: 12px 35px ;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--button-color);
+    color: var(--background-color);
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ;
+}
+.about-us button:hover{
+    background-color: #dca952;
+}
+.about-us-content p{
+    margin: 0 0 15px;
+    font-family: var(--poopines-fonts);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-color-primary);
+}
+.about-us-content li{
+    font-family: var(--poopines-fonts);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-color-primary);
+}
+/* SECTION 4 CSS */
+.offer-section{
+    background-image: url(../image/bgimg-1.jpg);
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+.our-offer{
+    padding-left: 48px;
+}
+.our-offer h4{
+    font-family: var(--yeseva-fonts);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--button-color);
+}
+.our-offer h5{
+    line-height: 48px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--text-color);
+    font-family: var(--yeseva-fonts);
+    padding-top: 32px;
+}
+.our-offer-img p{
+    font-family: var(--poopines-fonts);
+    font-size: 14px;
+    color: var(--text-color);
+}
+.Festivals-img{
+    background-image: url(../image/download123.jpg);
+    padding: 160px 60px 100px;
+    position: relative;
+}
+.Festivals-img h3{
+    font-family: var(--yeseva-fonts);
+    line-height: 48px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--text-color);
+}
+.Festivals-content{
+    padding: 45px 60px 30px;
+    background-color: var(--bcakground-color-primary);
+}
+.Festivals-content p{
+    font-family: var(--poopines-fonts);
+    font-size: 14px;
+    color: var(--text-color-primary);
+}
+.Festivals-content button{
+    margin: 40px 0 20px;
+    padding: 12px 35px ;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--button-color);
+    color: var(--background-color);
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ;
+}
+.Breakfast-img{
+    background-image: url(../image/Breakfast-img.jpg);
+    padding: 160px 60px 100px;
+    position: relative;
+}
+.Breakfast-img h3{
+    font-family: var(--yeseva-fonts);
+    line-height: 48px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--text-color);
+}
+.Services-img{
+    background-image: url(../image/servicesimg.jpg);
+    padding: 160px 60px 100px;
+    position: relative;
+}
+.Services-img h3{
+    font-family: var(--yeseva-fonts);
+    line-height: 48px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--text-color);
+}
+/* SECTION 5 Css */
+.prices-section{
+    padding: 80px;
+    background-color: var(--bcakground-color-primary);
+}
+.prices{
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-family: var(--yeseva-fonts);
+    color: var(--text-color-primary);
+}
+.meal{
+    background-color: #f4f5f5;
+    padding: 50px 10% 35px;
+}
+.daily-meal{
+    background-image: url(../image/pricesimg.jpg);
+    background-color: var(--button-color);
+}
+.price{
+    color: #6287d9;
+    font-size: 20px;
+    font-family: var(--poopines-fonts);
+}
+.time{
+    color: #4c4c4c;
+    font-size: 20px;
+    font-family: var(--poopines-fonts);
+}
+.meal h5{
+    color: #4c4c4c;
+    font-family: var(--poopines-fonts);
+    font-size: 14px;
 }
