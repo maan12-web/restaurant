@@ -316,8 +316,8 @@ html{
     color: var(--text-color-primary);
 }
 .meal{
-    background-color: #f4f5f5;
-    padding: 50px 10% 35px;
+    background-color: #e2e5e5;
+    padding: 50px 80px 35px;
 }
 .daily-meal{
     background-image: url(../image/pricesimg.jpg);
@@ -337,4 +337,24 @@ html{
     color: #4c4c4c;
     font-family: var(--poopines-fonts);
     font-size: 14px;
+}
+.package-btn button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: var(--poopines-fonts);
+    font-size: 14px;
+    color: var(--text-color-primary);
+}
+.Check-blue{
+    color: #6287d9;
+}
+.Check-disseble{
+    color: #cb9836;
+}
+.Check-dissebled{
+    color: #c2c1c1;
+}
+.Check{
+    color: var(--text-color)
 }
