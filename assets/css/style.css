@@ -392,3 +392,106 @@ html{
     color: var(--text-color-primary);
     background-color: var(--button-color);
 }
+/* section 7 css */
+.gallery-section{
+    background-color: var(--button-color);
+    padding: 120px 0 0;
+}
+.gallery-content h2{
+    font-family: var(--yeseva-fonts);
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--text-color-primary);
+}
+.gallery-content p{
+    font-family: var(--poopines-fonts);
+    font-size: 14px;
+}
+.gallery-img{
+    overflow: hidden;
+    cursor: pointer;
+}
+.gallery-img img{
+    transition: all 0.3s linear;
+}
+.gallery-img img:hover{
+    transform: scale(1.1);
+}
+/* section 8 css */
+.contact-section{
+    padding: 120px 0 80px;
+}
+.contact-contain h2{
+    font-family: var(--yeseva-fonts);
+    line-height: 48px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--text-color-primary);
+}
+.contact-icon i{
+    color: var(--button-color);
+}
+.contact-icon span{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--poopines-fonts);
+}
+.mail{
+    font-family: var(--poopines-fonts);
+    font-size: 20px;
+    color: var(--button-color);
+}
+.contact-form input{
+    background-color: #e6e6e6;
+    border: none;
+    padding: 10px 5px 10px 15px;
+    width: 100%;
+}
+.contact-form textarea{
+    background-color: #e6e6e6;
+    border: none;
+    padding: 10px 5px 10px 15px;
+    width: 100%;
+}
+.send-btn input{
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 5px;
+}
+/* footer css */
+.footer-section{
+    background-image: url(../image/footer.jpg);
+}
+.footer{
+    padding: 110px 0 280px;
+}
+.footer-content h5{
+    color: var(--button-color);
+    font-family: var(--yeseva-fonts);
+}
+.footer-content h6{
+    color: var(--text-color);
+    font-family: var(--yeseva-fonts);
+}
+.footer-content p{
+    font-family: var(--poopines-fonts);
+    color: var(--text-color);
+}
+.footer-icon{
+    background-color: var(--text-color);
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 5px 9px;
+    color: var(--text-color-primary);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.footer-icon:hover{
+    background-color: var(--button-color);
+}
+.footer-last h6{
+    color: var(--text-color);
+}

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- FANCYBOX CSS -->
+    <link rel="stylesheet" href="./assets/css/fancybox.css">
     <!-- REMIX ICON CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- POOPINS FONTS -->
@@ -49,7 +51,7 @@
                     <a href="#gallery" class="text-decoration-none">
                         <li>Gallery</li>
                     </a>
-                    <a href="contact" class="text-decoration-none">
+                    <a href="#contact" class="text-decoration-none">
                         <li>Contact</li>
                     </a>
                 </ul>
@@ -413,7 +415,9 @@
                     <div class="col-lg-6">
                         <div class="chef-content text-end">
                             <h2 class="pb-4 fs-1">A few words about <br> our chef</h2>
-                            <p class="pb-3">Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis <br> nibh magna. Proin risus erat, fringilla vel purus sit amet, <br> mattis porta enim. Duis fermentum faucibus est, sed <br> vehicula velit sodales vitae. Mauris mollis.</p>
+                            <p class="pb-3">Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis <br> nibh
+                                magna. Proin risus erat, fringilla vel purus sit amet, <br> mattis porta enim. Duis
+                                fermentum faucibus est, sed <br> vehicula velit sodales vitae. Mauris mollis.</p>
                             <ul class="list-unstyled mb-5">
                                 <li class="pb-3">
                                     <img src="./assets/image/download (2).png" alt="">
@@ -434,6 +438,142 @@
                 </div>
             </div>
         </section>
+        <!-- SECTION 6 END -->
+        <!-- SECTION 7 START -->
+        <section class="gallery-section text-center" id="gallery">
+            <div class="gallery-content">
+                <h2 class="fs-1 pb-4">Gallery</h2>
+                <p class="pb-4">Ut ultricies imperdiet sodales. Aliquam fringilla aliquam ex sit amet elementum. Proin
+                    <br> bibendum sollicitudin feugiat. Curabitur ut egestas justo, vitae molestie ante. Integer <br>
+                    magna purus, commodo in diam nec, pretium auctor sapien.
+                </p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="gallery-img">
+                            <a href="./assets/image/gallery1.jpg" data-fancybox="gallery">
+                                <img src="./assets/image/gallery1.jpg" alt="" width="100%" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="gallery-img">
+                            <a href="./assets/image/galleryimg1.jpg" data-fancybox="gallery">
+                                <img src="./assets/image/galleryimg1.jpg" alt="" width="100%" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="gallery-img">
+                            <a href="./assets/image/galleryimg3.jpg" data-fancybox="gallery">
+                                <img src="./assets/image/galleryimg3.jpg" alt="" width="100%" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="gallery-img">
+                            <a href="./assets/image/galleryimg4.jpg" data-fancybox="gallery">
+                                <img src="./assets/image/galleryimg4.jpg" alt="" width="100%" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="gallery-img">
+                            <a href="./assets/image/galleryimg5.jpg" data-fancybox="gallery">
+                                <img src="./assets/image/galleryimg5.jpg" alt="" width="100%" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 7 END -->
+        <!-- SECTION 8 START -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="contact-contain">
+                            <h2 class="fs-1">Contact us via</h2>
+                            <h2 class="pb-4 fs-1">phone, mail or social media</h2>
+                            <p>
+                                Level 13, 2 Elizabeth St,
+                                <br> Melbourne, Victoria 3000,
+                                <br> Australia
+                            </p>
+                            <div class="pb-3 contact-icon">
+                                <i class="ri-phone-line"></i>
+                                <span>PHONE NUMBER</span>
+                            </div>
+                            <h4 class="pb-3">
+                                +61 (0) 383 766 284
+                            </h4>
+                            <div class="pb-3 contact-icon">
+                                <i class="ri-mail-line"></i>
+                                <span>EMAIL ADDRESS</span>
+                            </div>
+                            <p class="mail">noreply@envato.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <div class="row gx-4 gy-4">
+                                <div class="col-lg-6 pe-3"><input type="name" placeholder="Your Name" required></div>
+                                <div class="col-lg-6"><input type="email" placeholder="Your e-mail" required></div>
+                                <div class="col-12"><input type="text" placeholder="Subject" required></div>
+                                <div class="col-12"><textarea name="" id="" placeholder="Message" rows="10"></textarea>
+                                </div>
+                                <div class="col-12 send-btn"><input type="submit" value="Send A Message"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 8 END -->
+        <!-- FOOTER START -->
+        <footer class="footer-section">
+            <div class="footer">
+                <div class="container">
+                    <div class="row gx-5 gy-4">
+                        <div class="col-lg-4 text-center">
+                            <div class="logo-img">
+                                <img src="./assets/image/download.png" alt="" width="151px">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-content text-center">
+                                <h5 class="fs-1 pb-5">Dear guests!</h5>
+                                <h6 class="fs-2 pb-2">We are open 7 days a</h6>
+                                <h6 class="fs-2 pb-5">week 9:00 - 20:30</h6>
+                                <p>Need help? Call us</p>
+                                <h5 class="fs-1">+61 (0) 383 766 284</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex gap-3 justify-content-center">
+                                <div class="footer-icon">
+                                    <i class="ri-twitter-line"></i>
+                                </div>
+                                <div class="footer-icon">
+                                    <i class="ri-facebook-line"></i>
+                                </div>
+                                <div class="footer-icon">
+                                    <i class="ri-skype-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <hr>
+          <div class="text-center footer-last">
+            <h6 class="pb-4">© 2019 BeCatering 2 - BeTheme. Muffin group - HTML by BeantownThemes</h6>
+          </div>
+        </footer>
+
 
     </main>
 
@@ -487,6 +627,8 @@
     </div>
     <!-- OFF CANVAS END -->
     <!-- SCRIPTS -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/fancybox.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/bootstrap.bundle.js"></script>
     <script>
