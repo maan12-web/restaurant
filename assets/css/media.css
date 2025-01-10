@@ -86,6 +86,13 @@
         display: inline;
     }
 }
+@media (max-width: 992px) {
+    .chef-content{
+        padding: 120px 40px 80px;
+        margin: 0px 40px;
+        text-align: start !important;
+    }
+}
 @media (max-width: 768px) {
     .title-content h1{
         font-size: 48px;
@@ -101,6 +108,7 @@
         padding: 0;
         margin-bottom: 36px !important;
     }
+   
 }
 @media (max-width: 576px) {
     .buynow-btn{
@@ -119,5 +127,14 @@
     }
     .our-offer{
         padding-left: 24px;
+    }
+    .meal{
+        padding: 20px 0 0 0;
+    }
+    .prices-section{
+        padding: 40px;
+    }
+    .chef-content{
+        padding: 120px 20px 80px;
     }
 }
