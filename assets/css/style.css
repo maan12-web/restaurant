@@ -492,6 +492,3 @@ html{
 .footer-icon:hover{
     background-color: var(--button-color);
 }
-.footer-last h6{
-    color: var(--text-color);
-}
